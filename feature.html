@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Securex - CCTV Camera Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Inicio de barra superior -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>San Jose, Costa Rica</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>info@farmaticas.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+506 8898 8882</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Lunes - Viernes : 9AM - 9PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final de barra superior -->
+
+
+    <!-- Inicio del menu -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">Farmacias Ticas</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                
+                <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                <a href="comunidad.html" class="nav-item nav-link">Comunidad</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departamentos</a> 
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="dep-ti.html" class="dropdown-item">TI</a>
+                        <a href="dep-rh.html" class="dropdown-item">Recursos Humanos</a>
+                        <a href="dep-ventas.html" class="dropdown-item">Ventas</a>
+                        <a href="dep-gerencia.html" class="dropdown-item">Gerencia</a>
+                        <a href="dep-logistica.html" class="dropdown-item">Logistica</a>
+                        <a href="dep-mercadeo.html" class="dropdown-item">Mercadeo</a>
+                    </div>
+                </div>
+
+                <a href="concursos.html" class="nav-item nav-link ofert">Concursos</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Beneficios</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Seguro privado</a>
+                        <a href="quote.html" class="dropdown-item">Descuentos</a>
+                        <a href="team.html" class="dropdown-item">Asociación</a>
+                        <a href="training.html" class="dropdown-item">Capacitaciones</a> 
+                    </div>
+                </div>
+
+
+                <a href="contacto.html" class="nav-item nav-link">Contáctenos</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none sosial">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Final del menu -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid seguro-header py-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Seguro Privado</h1>
+            <nav aria-label="breadcrumb animated slideInDown"></nav></nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="about.html">Nosotros</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Seguro Privado</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">¿Por que escoger PALIG?</h1>
+                        <p class="mb-4 pb-2">Nuestra póliza de salud y de vida la tenemos con PALIG (Panamerican Life Insurance), esta póliza tiene gran cobertura en procedimientos, consultas, medicamentos y además cuenta con una amplia red médica a lo largo de Costa Rica. La póliza está dividida en gastos médicos que también es conocida como salud y por otro lado la de Vida. </p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/gastos.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Seguro de gastos medicos</p>
+                                        <h5 class="mb-0"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/segurovida.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Seguro de vida</p>
+                                        <h5 class="mb-0"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/accidentes.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Accidentes laborales</p>
+                                        <h5 class="mb-0"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/medicina.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Medicina Empresarial</p>
+                                        <h5 class="mb-0"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/palig.png" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- seguros Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">Seguro de vida</h1>
+                        <p class="mb-4 pb-2">En caso de fallecimiento de algún colaborador, tenemos este subsidio de ayuda para las personas que designes como beneficiarias de este dinero. Si la muerte se da de forma natural se otorgarán 24 salarios y en caso de muerte accidental serán 48 salarios.
+                            El seguro de vida incluye un adelanto fúnebre para facilitar a las familias que están pasando por ese momento una ayuda económica.
+                        </p>
+                        <p>
+                            Con respecto a la designación de beneficiarios es importante que tome en cuenta que:
+                            <ol>
+                                <p>- Deben de ser mayores de edad.</p>
+                                <p>- Al momento del pago del dinero la/s persona/s debe de presentarse para firmar el finiquito.</p>
+                                <p>- Puede asignar un beneficiario principal y un beneficiario secundario o bien varios y asignarles un porcentaje de distribución del 100%.</p>
+                                <p>- Puede hacer cambios de estos en cualquier momento, solo debe de contactar a los ejecutivos de PALIG.</p>
+                                
+                            </ol>
+                        </p>
+                        <p>
+                            Si no designa beneficiarios el dinero no será entregado.
+                            Es importante que deje notificación desde ya a las personas designadas como beneficiarios, ya que la aseguradora se estará poniendo en contacto con ellos.
+                            Como parte de la solidaridad de Farmaticas con las familias afectas por la pérdida de un colaborador la liquidación se estaría calculando completa incluyéndole el preaviso (que por ley no esta estipulado) como parte de nuestros beneficios.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">Seguro de gastos medicos</h1>
+                        <p class="mb-4 pb-2">Esta póliza es para cubrir procedimientos, consultas, exámenes, medicamentos entre otros que estén amparados por la póliza para usted como titular y colaborador de la empresa y para quienes usted haya designado como dependientes.
+                            La póliza está dividida en tres planes que van de acuerdo con los niveles de carrera. Hay cobertura en la región centroamericana en caso de viajes personales para usted y sus dependientes.
+                            Dentro de la póliza vas a encontrar chequeos médicos anuales (plan oro y plan plata), control de niño sano, control ginecológico anual, mamografía, exámen del PSA, entre otros que puedes consultar con los ejecutivos de PALIG.
+                        </p>
+                            <div class="container-xxl py-4">
+                                <div class="container">
+                                    <div class="row align-items-start">
+                                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                                            <div class="service-item border h-100 p-5">
+                                                <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                                                    <img class="img-fluid" src="img/icon/medalla-de-oro.png" alt="Icon">
+                                                </div>
+                                                <h4 class="mb-3">Plan Oro</h4>
+                                                <p class="mb-4">Asegurado + 1 dependiente: $8.75</p>
+                                                <p class="mb-4">Asegurado + 1 conyuge: $19.48</p>
+                                                <p class="mb-4">Asegurado + 1 grupo familiar: $38.38</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                                            <div class="service-item border h-100 p-5">
+                                                <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                                                    <img class="img-fluid" src="img/icon/medalla-de-plata.png" alt="Icon">
+                                                </div>
+                                                <h4 class="mb-3">Plan Plata</h4>
+                                                <p class="mb-4">Asegurado + 1 dependiente: $7.52</p>
+                                                <p class="mb-4">Asegurado + 1 conyuge: $16.14</p>
+                                                <p class="mb-4">Asegurado + 1 grupo familiar: $31.66</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                                            <div class="service-item border h-100 p-5">
+                                                <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                                                    <img class="img-fluid" src="img/icon/medalla-de-bronce.png" alt="Icon">
+                                                </div>
+                                                <h4 class="mb-3">Plan Bronce</h4>
+                                                <p class="mb-4">Asegurado + 1 dependiente: $6.52</p>
+                                                <p class="mb-4">Asegurado + 1 conyuge: $14.52</p>
+                                                <p class="mb-4">Asegurado + 1 grupo familiar: $28.23</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    ** lalala
+    <!-- seguros Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">Medicina Empresarial</h1>
+                        <p class="mb-4 pb-2">Como parte de nuestra oferta de beneficios para los colaboradores de Farmaticas y siempre en busca del bienestar tenemos un consultorio médico empresarial ubicado en la Oficina B. El horario de atención: es de Lunes a Viernes 8:00 AM a 6:00 PM.
+                        </p>
+                        <p>Como solicitar:</p>
+                        <p>
+                            1- Las citas se solicitan por medio de Teams.<br>
+                            2- Son por video llamada a menos de que requiera presentarse de forma presencial.<br>
+                            3- Debe de completar su número de identificación. En caso de tener cédula de extranjería debe de contactar a la enfermera para que le ayude a tramitar su cita.<br>
+                            4- Agenda: es importante que utilice el servicio correspondiente ya que en caso contrario su cita será cancelada y deberá de pedir una nueva con quien corresponde.<br>
+                            5- Motivo: indicar el motivo de la consulta.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">Accidentes laborales</h1>
+                        <p class="mb-4 pb-2">Incidentes, accidentes y/o enfermedades laborales, que ocurran dentro de las instalaciones de la empresa, o fuera de estas siempre y cuando el involucrado se encuentre en horas de trabajo y realizando actividades y/o diligencias bajo la directriz de su jefe directo o durante la ejecución del teletrabajo.
+                        </p>
+                        <p>
+                            Procedimento de aviso al patrono:
+                        </p>
+                        <p>
+                            1- Al presentarse un incidente laboral el colaborador debe comunicarse a la brevedad con la jefatura inmediata. Por favor haga el comunicado de forma 
+                            inmediata no deje pasar el tiempo.<br>
+                            2- De presentarse el incidente de categoría urgente dentro de las instalaciones de Farmaciaticas se notifica a la brigada de emergencias (por medio de Recepción), ellos lo asistirán y lo llevarán hasta el consultorio médico para su valoración.<br>
+                            3- RRHH abre el caso en la página del INS (cuando los accidentes sean catalogados como accidentes laborales) con la información suministrada por el colaborador y el reporte del médico.<br>
+                            4- Si el colaborador no requiere de una valoración médica urgente, debe solicitar cita de valoración en el consultorio médico y se sigue el procedimiento antes mencionado. (Por medio de Teams)<br>
+                            5- Las incapacidades deben presentarse de forma oportuna a Recursos Humanos y a Payroll enviando un correo a: incapacidadescr@farmaticas.com en cc. Farmaticas_Av_CR_HR@farmaticas.com<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Dirección</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San Jose, Costa Rica</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 8898 8882</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@farmaticas.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Departamentos</h5>
+                    <a class="btn btn-link" href="dep-gerencia.html">Gerencia</a>
+                    <a class="btn btn-link" href="dep-logistica.html">Logistica</a>
+                    <a class="btn btn-link" href="dep-mercadeo.html">Mercadeo</a>
+                    <a class="btn btn-link" href="dep-rh.html">Talento Humano</a>
+                    <a class="btn btn-link" href="dep-ti.html">Tecnología e Información</a>
+                    <a class="btn btn-link" href="dep-ventas.html">Ventas</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Accesos Rápidos</h5>
+                    <a class="btn btn-link" href="about.html">Nosotros</a>
+                    <a class="btn btn-link" href="comunidad.html">Comunidad</a>
+                    <a class="btn btn-link" href="concursos.html">Concursos Internos</a>
+                    <a class="btn btn-link" href="contacto.html">Contáctenos</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Boletín informativo</h5>
+                    <p>Digite su correo si desea parte de nuestra comunidad y estar enterado de las últimas novedades.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Farmaticas.com</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">TecnoByte Solutions</a><br>
+                </div>
+            </div>
+        </div>
+    </div>>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

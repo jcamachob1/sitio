@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Securex - CCTV Camera Website Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/97e1df6cc4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark px-5">
+    <div class="row gx-4 d-none d-lg-flex">
+      <div class="col-lg-6 text-start">
+        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+          <div class="btn-sm-square rounded-circle bg-primary me-2">
+            <small class="fa fa-map-marker-alt text-white"></small>
+          </div>
+          <small>123 Street, New York, USA</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center py-3">
+          <div class="btn-sm-square rounded-circle bg-primary me-2">
+            <small class="fa fa-envelope-open text-white"></small>
+          </div>
+          <small>info@example.com</small>
+        </div>
+      </div>
+      <div class="col-lg-6 text-end">
+        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+          <div class="btn-sm-square rounded-circle bg-primary me-2">
+            <small class="fa fa-phone-alt text-white"></small>
+          </div>
+          <small>+012 345 6789</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center py-3">
+          <div class="btn-sm-square rounded-circle bg-primary me-2">
+            <small class="far fa-clock text-white"></small>
+          </div>
+          <small>Mon - Fri : 9AM - 9PM</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+
+  <!-- Inicio del menu -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <h2 class="m-0 text-primary">Farmacias Ticas</h2>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-4 py-lg-0">
+
+        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+        <a href="comunidad.html" class="nav-item nav-link active">Comunidad</a>
+
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departamentos</a>
+          <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+            <a href="dep-ti.html" class="dropdown-item">TI</a>
+            <a href="dep-rh.html" class="dropdown-item">Recursos Humanos</a>
+            <a href="dep-ventas.html" class="dropdown-item">Ventas</a>
+            <a href="dep-gerencia.html" class="dropdown-item">Gerencia</a>
+            <a href="dep-logistica.html" class="dropdown-item">Logistica</a>
+            <a href="dep-mercadeo.html" class="dropdown-item">Mercadeo</a>
+          </div>
+        </div>
+
+
+        <a href="concursos.html" class="nav-item nav-link ofert">Concursos</a>
+
+
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Beneficios</a>
+          <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+            <a href="feature.html" class="dropdown-item">Seguro privado</a>
+            <a href="quote.html" class="dropdown-item">Descuentos</a>
+            <a href="team.html" class="dropdown-item">Asociación</a>
+            <a href="training.html" class="dropdown-item">Capacitaciones</a>
+          </div>
+        </div>
+
+
+        <a href="contacto.html" class="nav-item nav-link">Contáctenos</a>
+      </div>
+      <div class="h-100 d-lg-inline-flex align-items-center d-none sosial">
+        <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+            class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+            class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </nav>
+  <!-- Final del menu -->
+
+
+  <!-- Page Header Start -->
+  <div class="container-fluid comunidad-header py-5 mb-5">
+    <div class="container py-5">
+      <p class="display-3 text-white mb-3 animated slideInDown">Nos encanta saber que trabajamos en un lugar donde podemos ayudar a otros y aportar
+        un poco de lo mucho que se nos da cada día.</p>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+          <li class="breadcrumb-item"><a class="text-white" href="#">Donaciones</a></li>
+          <li class="breadcrumb-item text-white active" aria-current="page">Voluntariado</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+
+  <!-- Projects Start -->
+  <div class="container-fluid py-5 mb-5">
+    <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+        <h1 class="display-5 mb-5">Nos encanta saber que trabajamos en un lugar donde podemos ayudar a otros y aportar
+          un poco de lo mucho que se nos da cada día.
+          <br>
+        </h1>
+        <br>
+        <h2>Todo esto por medio de:</h2>
+
+      </div>
+      <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-12 text-center">
+          <ul class="list-inline mb-5" id="portfolio-flters">
+            <li class="mx-2 active" data-filter="">Nuestra Comunidad</li>
+            <li class="mx-2" data-filter=".first">Donaciones</li>
+            <li class="mx-2" data-filter=".second">Servicio de Voluntariado</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div><!-- End Carousel Item -->
+
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row justify-content-center gy-6">
+
+        <div class="col-lg-5 col-md-8">
+          <img src="assets/img/carousel/Voluntariado.jpg" alt="" class="img-fluid img">
+        </div>
+
+        <div class="col-lg-9 text-center">
+          <h2>Voluntariado</h2>
+          <p>Nuestros equipos de trabajo realizan labores de voluntariado cada trimestre, ayudando así al medio
+            ambiente.</p>
+          <a href="#featured-services" class="btn-get-started scrollto ">Ver más</a>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- End Carousel Item -->
+
+ 
+
+
+
+  
+
+
+
+
+
+  <!-- ======= Featured Services Section ======= -->
+  <section id="featured-services" class="featured-services">
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="fa-solid fa-lungs-virus" style="color: #21D4DA" style="--fa-animation-duration: 9s"></i></div>
+            <h4><a href="" class="stretched-link">Comunidad Medica</a></h4>
+            <p>Un esquipo especializado de medicos se encargan de dar soporte a cada diagnostico en cuanto nos
+              consultan.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="fa-solid fa-jar" style="color: #21D4DA" style="--fa-animation-duration: 9s"></i></div>
+            <h4><a href="" class="stretched-link">Comunidad Farmaceutica</a></h4>
+            <p>Encargados de la entrega de sus medicamentos mensuales e informar de la importancia.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="fa-solid fa-display" style="color: #21D4DA" style="--fa-animation-duration: 9s"></i></div>
+            <h4><a href="" class="stretched-link">Comunidad TI</a></h4>
+            <p>Se encargan de apoyar a quienes no cuentan con muchos conocimientos y se logrén alinear con el equipo.
+            </p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon"><i class="fa-solid fa-people-group" style="color: #21D4DA" style="--fa-animation-duration: 9s"></i></div>
+            <h4><a href="" class="stretched-link">Comunidad de clientes</a></h4>
+            <p>Quienes estarán encargados de siempre velar por los adecuados procesos para la satisfacción tanto de
+              nuestros clientes internos como externos.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+  </section><!-- End Featured Services Section -->
+
+
+
+  </div>
+
+  </div>
+
+  </div>
+
+  </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Clients Section ======= -->
+
+  </section><!-- End Clients Section -->
+
+
+<!-- About Start -->
+<div class="container-fluid bg-light overflow-hidden my-3 px-lg-0">
+  <div class="container about px-lg-0">
+      <div class="row g-0 mx-lg-0">
+          
+          <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+              <div class="p-lg-5 pe-lg-0">
+                  <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                  <h1 class="display-5 mb-4">Donaciones</h1>
+                  <ul>
+                      <p>Gracias a las donaciones recibidas por diferentes medios como:</p>
+                      <li>Empresas privadas</li>
+                      <li>Porcentaje mensual de las compras generadas en nuestra empresa, siendo donaciones indirectas de nuestros clientes.</li>
+                      <li>Donacion de nuestros colaboradores y fundadores</li>
+                      <br>
+                      <p>Logramos realizar cada mes labores de voluntario que ayudan a nuestras comunidades a estar más saludables y en mejores condiciones</p>
+                  </ul>
+                  <a href="contacto.html" class="btn btn-info rounded-pill py-3 px-4">Deseo donar</a>
+              </div>
+          </div>
+          <div class="col-lg-6 ps-lg-0 " style="min-height: 400px;">
+              <div class="position-relative h-100 nostr">
+                  <img class="position-absolute img-fluid w-100 h-100" src="img/depTI.jpg" style="object-fit: cover; margin-left: 20px;" alt="">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- About End -->
+
+
+
+
+
+  <div class="container-fluid py-5 mb-5">
+    <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+        <h2>Nuestros servicios de voluntariado:</h2>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <!-- ======= Features Section ======= -->
+  <section id="features" class="features">
+    <div class="container" data-aos="fade-up">
+
+      <ul class="nav nav-tabs row gy-4 d-flex">
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <i class="bi bi-tree color-cyan"></i>
+            <h4>Ambiental</h4>
+          </a>
+        </li><!-- End Tab 1 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <i class="bi bi-person color-indigo"></i>
+            <h4>Social</h4>
+          </a>
+        </li><!-- End Tab 2 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <i class="bi bi-heart color-teal"></i>
+            <h4>Salud</h4>
+          </a>
+        </li><!-- End Tab 3 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <i class="bi bi-building color-red"></i>
+            <h4>Educación</h4>
+          </a>
+        </li><!-- End Tab 4 Nav -->
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                <h3>Ambiental</h3>
+                <p class="fst-italic">
+                  Trabajamos por espacios más limpios y por un aire más puro, por lo que en conjunto de nuestros
+                  voluntarios hemos participado en actividades como:
+                </p>
+                <ul>
+                  <i class="bi bi-check-circle-fill "> Plantación de arboles en zonas importantes</i> <br>
+                  <i class="bi bi-check-circle-fill"> Limpieza de Ríos con el fin de regenerar la pureza y el poder
+                    volver al turismo en algún momento.</i><br>
+                  <i class="bi bi-check-circle-fill">Trabajo de selección de residuos y utilización de materiales
+                    alternativos.</i>
+                </ul>
+
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/features-1.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 1 -->
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Social</h3>
+                <p class="fst-italic">
+                  Dedicamos tiempo con personas en pobreza o riesgo social con actividades como:
+                </p>
+                <ul>
+                  <i class="bi bi-check-circle-fill "> Entrega de productos de consumo para su alimentación mensual</i>
+                  <br>
+                  <i class="bi bi-check-circle-fill"> Días llenos de actividades recreativas para los más
+                    pequeños</i><br>
+                  <i class="bi bi-check-circle-fill">Días de desayunos para personas en condición de calle</i>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 2 -->
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Salud</h3>
+                <p>
+                  Conocemos la importancia de aportar en el área de salud y un % de nuestras ventas mensuales son
+                  destinadas a comunidades de bajos recursos.
+                </p>
+                <ul>
+                  <i class="bi bi-check-circle-fill "> Se realizan entregas de pastillas como vitaminas</i> <br>
+                  <i class="bi bi-check-circle-fill"> Nuestros doctores realizan jornadas de consultas gratuitas</i><br>
+                  <i class="bi bi-check-circle-fill">Se donan medicamentos a consultorios locales para uso gratuito
+                    según la necesidad que tenga la comunidad mensualmente</i>
+                </ul>
+
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 3 -->
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Nostrum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <i class="bi bi-check-circle-fill "> Plantación de arboles en zonas importantes</i> <br>
+                  <i class="bi bi-check-circle-fill"> Limpieza de Ríos con el fin de regenerar la pureza y el poder
+                    volver al turismo en algún momento.</i><br>
+                  <i class="bi bi-check-circle-fill">Trabajo de selección de residuos y utilización de materiales
+                    alternativos.</i>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 4 -->
+
+
+
+      </ul>
+
+
+
+
+    </div>
+
+
+  </section><!-- End Features Section -->
+
+
+
+
+  <!-- Projects End -->
+
+
+  <!-- Footer Start -->
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Dirección</h5>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San Jose, Costa Rica</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 8898 8882</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@farmaticas.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.twitter.com"><i
+                class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.facebook.com"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.youtube.com"><i
+                class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Departamentos</h5>
+          <a class="btn btn-link" href="dep-gerencia.html">Gerencia</a>
+          <a class="btn btn-link" href="dep-logistica.html">Logistica</a>
+          <a class="btn btn-link" href="dep-mercadeo.html">Mercadeo</a>
+          <a class="btn btn-link" href="dep-rh.html">Talento Humano</a>
+          <a class="btn btn-link" href="dep-ti.html">Tecnología e Información</a>
+          <a class="btn btn-link" href="dep-ventas.html">Ventas</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Accesos Rápidos</h5>
+          <a class="btn btn-link" href="about.html">Nosotros</a>
+          <a class="btn btn-link" href="comunidad.html">Comunidad</a>
+          <a class="btn btn-link" href="concursos.html">Concursos Internos</a>
+          <a class="btn btn-link" href="contacto.html">Contáctenos</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Boletín informativo</h5>
+          <p>Digite su correo si desea parte de nuestra comunidad y estar enterado de las últimas novedades.</p>
+          <div class="position-relative w-100">
+            <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+              placeholder="Your email">
+            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+          </div>
+        </div>
+
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid py-4" style="background: #000000;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Farmaticas.com</a>, All Right Reserved.
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By <a class="border-bottom" href="https://htmlcodex.com">TecnoByte Solutions</a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Copyright End -->
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
