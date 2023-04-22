@@ -728,6 +728,8 @@
 }
 
 
+
+
 @font-face {
     font-display: block;
     font-family: "bootstrap-icons";
@@ -739,3 +741,23 @@
   .centrado{
     text-align: center;
   }
+
+.noticias .not1{
+    padding: 20px 0px 30px 0px;
+}
+
+.noticias .not2{
+    padding: 20px 0px 40px 0px;
+}
+
+.espacio{
+    height: 5px;
+    width: 10px;
+    background-color: gray;
+}
+
+.espacio2{
+    height: 5px;
+    width: 10px;
+    background-color: gray;
+}
