@@ -727,6 +727,10 @@
     background-size: cover;
 }
 
+.parallaxindex {
+    background: linear-gradient(rgba(22, 22, 22, .2), rgba(22, 22, 22, .7)), url(../img/banner.jpg) center center no-repeat;
+    background-size: cover; 
+}
 
 
 
@@ -753,11 +757,11 @@
 .espacio{
     height: 5px;
     width: 10px;
-    background-color: gray;
+    background-color: #65B530;
 }
 
 .espacio2{
     height: 5px;
     width: 10px;
-    background-color: gray;
+    background-color: #65B530;
 }
