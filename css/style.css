@@ -732,6 +732,22 @@
     background-size: cover; 
 }
 
+.parallaxventas{
+    background: linear-gradient(rgba(22, 22, 22, .2), rgba(22, 22, 22, .7)), url(../img/ventasfunc.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.parallaxrh{
+    background: linear-gradient(rgba(22, 22, 22, .2), rgba(22, 22, 22, .7)), url(../img/rh.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.parallaxlog{
+    background: linear-gradient(rgba(22, 22, 22, .2), rgba(22, 22, 22, .7)), url(../img/deplog.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.parallaxmercadeo{
+    background: linear-gradient(rgba(22, 22, 22, .2), rgba(22, 22, 22, .7)), url(../img/mercadeofun.jpg) center center no-repeat;
+    background-size: cover; 
+}
 
 
 @font-face {

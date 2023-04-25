@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/icon/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,7 +53,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
-                    <small>San Jose, Costa Rica</small>
+                    <small>San José, Costa Rica</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -67,7 +67,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-phone-alt text-white"></small>
                     </div>
-                    <small>+506 8898 8882</small>
+                    <small>+506 2280 8082</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -91,12 +91,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                
+
                 <a href="about.html" class="nav-item nav-link">Nosotros</a>
                 <a href="comunidad.html" class="nav-item nav-link">Comunidad</a>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departamentos</a> 
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departamentos</a>
                     <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                         <a href="dep-ti.html" class="dropdown-item">TI</a>
                         <a href="dep-rh.html" class="dropdown-item">Recursos Humanos</a>
@@ -117,7 +117,7 @@
                         <a href="feature.html" class="dropdown-item">Seguro privado</a>
                         <a href="quote.html" class="dropdown-item">Descuentos</a>
                         <a href="team.html" class="dropdown-item">Asociación</a>
-                        <a href="training.html" class="dropdown-item">Capacitaciones</a> 
+                        <a href="training.html" class="dropdown-item">Capacitaciones</a>
                     </div>
                 </div>
 
@@ -125,10 +125,14 @@
                 <a href="contacto.html" class="nav-item nav-link active">Contátenos</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none sosial">
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
     </nav>
@@ -163,7 +167,7 @@
                                 <h4 style="font-weight: lighter;">Comunicate con nuestros departamentos</h4>
                                 <div class="num">
                                     <h5>
-                                        +506 11223344
+                                        +506 2280 8082
                                     </h5>
                                 </div>
                                 <!--<div class="row">
@@ -274,7 +278,7 @@
                                             <option value="4">Logística</option>
                                             <option value="5">Mercadeo</option>
                                             <option value="6">Recursos Humanos</option>
-                                          </select>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -291,18 +295,45 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
+                                    <button class="btn btn-primary w-100 py-3" data-bs-toggle="modal"
+                                        data-bs-target="#modalenviarticket" type="button">Enviar</button>
                                 </div>
                             </div>
                         </form>
 
                     </div>
+                    <!-- Modal Enviar ticket-->
+                    <div class="modal fade" id="modalenviarticket" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Su ticket ha sido creado</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Por este medio le confirmamos que su tiquete ha sido creado correctamente. 
+                                        <br>
+                                        Su caso será revisado y muy pronto nos pondremos en contacto con usted.
+                                    </p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin Modal 1-->
                 </div>
                 <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62879.67887511892!2d-84.154544922188!3d9.935627678271329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e342c50d15c5%3A0xe6746a6a9f11b882!2zU2FuIEpvc8Op!5e0!3m2!1ses!2scr!4v1681441693417!5m2!1ses!2scr"
-                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -317,13 +348,16 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Dirección</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San Jose, Costa Rica</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 8898 8882</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San José, Costa Rica</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 2280 8082</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@farmaticas.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2"
+                            href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2"
+                            href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2"
+                            href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -344,15 +378,40 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Boletín informativo</h5>
-                    <p>Digite su correo si desea parte de nuestra comunidad y estar enterado de las últimas novedades.</p>
+                    <p>Digite su correo si desea parte de nuestra comunidad y estar enterado de las últimas novedades.
+                    </p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Correo">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                            data-bs-toggle="modal" data-bs-target="#modalnotificar">Enviar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Modal Notificar-->
+    <div class="modal fade" id="modalnotificar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Boletín Informativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Pronto estará recibiendo las últimas novedades de nuestra comunidad.
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Modal 1-->
     <!-- Footer End -->
 
 

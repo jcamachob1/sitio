@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Securex - CCTV Camera Website Template</title>
+    <title>Farmacias Ticas</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/icon/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +50,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
-                    <small>San Jose, Costa Rica</small>
+                    <small>San José, Costa Rica</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -64,7 +64,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-phone-alt text-white"></small>
                     </div>
-                    <small>+506 8898 8882</small>
+                    <small>+506 2280 8082</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -209,8 +209,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Dirección</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San Jose, Costa Rica</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 8898 8882</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>San José, Costa Rica</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 2280 8082</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@farmaticas.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
@@ -238,14 +238,38 @@
                     <h5 class="text-light mb-4">Boletín informativo</h5>
                     <p>Digite su correo si desea parte de nuestra comunidad y estar enterado de las últimas novedades.</p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Correo">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                data-bs-toggle="modal" data-bs-target="#modalnotificar">Enviar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
+        <!-- Modal Notificar-->
+        <div class="modal fade" id="modalnotificar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Boletín Informativo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Pronto estará recibiendo las últimas novedades de nuestra comunidad.
+                        </p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Modal 1-->
+        <!-- Footer End -->
 
 
     <!-- Copyright Start -->
